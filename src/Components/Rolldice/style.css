@@ -1,0 +1,67 @@
+.fas{
+    width: 350px;
+    height: 350px;
+    /* background-color: gray; */
+    font-size: 250px;
+    color: #2866c9;
+}
+
+/* fa, .fas, .far, .fal, .fad, .fab */
+
+button{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    color: #2866c9;
+    font-size: 20px;
+    border: 2px solid #2866c9;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: #2866c9;
+    color: white;
+  }
+
+  #container_button{
+      width: auto;
+      height: 50px;
+      /* background-color: burlywood; */
+  }
+
+  .shaking {
+    animation-name: wobble;
+    animation-duration: 1s;
+  }
+  
+  @keyframes wobble {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    15% {
+      transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    }
+  
+    30% {
+      transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    }
+  
+    45% {
+      transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    }
+  
+    60% {
+      transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    }
+  
+    75% {
+      transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
